@@ -1,7 +1,8 @@
 import cv2
 
 ##함수 선언부
-
+from canny import cannyEdge
+from gray import grayScale 
 
 ##전역 변수부
 src=None #원본 이미지 
